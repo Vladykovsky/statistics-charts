@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  background: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.wrapper {
+    background-color: #2C2D33;
+    width: 430px;
+    height: 448px;
+    border-radius: 6px;
+    box-shadow: 0px 2px 10px 0px #0000001A;
+}
+
+.wrapper .content h2 {
+    font: 600 16px Roboto;
+    color: #828282;
+    padding-top: 28px;
+    padding-left: 45px;
+}
+
+.wrapper .content h1 {
+    font: 500 40px Roboto;
+    letter-spacing: -3.75%;
+    color: #FFFFFF;
+    padding-top: 4px;
+    padding-left: 45px;
+}
+
+.wrapper .content p {
+    font: 400 14px Roboto;
+    color: #FFFFFF;
+    padding-top: 4px;
+    padding-left: 45px;
+    padding-bottom: 27px;
+}
+
+.wrapper .content img {
+    padding-top: 29px;
+    padding-left: 30px;
+}
+
+.wrapper .content .line {
+    width: 430;
+    border: 2px solid #4F4F4F
+}
+
+.wrapper .container {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding-left: 72px;
+}
+
+.wrapper .container .rectangle {
+    width: 21px;
+    height: 8px;
+    background-color: #63ABFD;
+
+}
+
+.wrapper .container .item {
+    font: 400 12px Inter;
+    color: #FFFFFF;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('fonts/Inter18pt-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
